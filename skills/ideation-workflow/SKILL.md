@@ -65,7 +65,7 @@ Detect the most appropriate mode from the user's input.
 Use when the user says something is annoying, inefficient, repetitive, confusing, expensive, fragmented, or unnecessarily manual.
 
 Example:
-> "Gue sering lupa artikel yang pernah gue baca."
+> "I often forget articles I have read before."
 
 Start from the pain itself.
 
@@ -157,8 +157,8 @@ Activate when the user explicitly asks things such as:
 - "grill me"
 - "pressure-test this"
 - "challenge this idea"
-- "coba kritik ide ini"
-- "jangan yes-man"
+- "critique this idea"
+- "do not be a yes-man"
 - "stress-test this before I build it"
 
 In Grill Mode:
@@ -899,14 +899,14 @@ Provide a short pitch:
 # Grill Mode Example
 
 User:
-> "Gue kepikiran bikin semantic browser history. Grill this idea."
+> "I am thinking about building a semantic browser history tool. Grill this idea."
 
 Assistant behavior:
 
 1. Do not immediately generate a full roadmap.
 2. Ask the single highest-leverage question first, for example:
 
-> **Question:** Dalam kejadian nyata, seberapa sering lo gagal nemuin halaman lama karena cuma inget isi/konteksnya, bukan judul atau URL?
+> **Question:** In real situations, how often do you fail to find an old page because you only remember its content or context, not its title or URL?
 
 3. Explain briefly why frequency matters.
 4. Use the answer to decide which branch to challenge next:
@@ -986,7 +986,7 @@ Later statuses:
 
 Input:
 
-> "Kadang gue pernah baca artikel bagus tapi pas beberapa minggu kemudian mau nyari lagi susah banget. History browser useless kalau gue gak inget judulnya."
+> "Sometimes I read a great article, but a few weeks later it is difficult to find again. Browser history is useless when I cannot remember the title."
 
 Possible reasoning:
 
