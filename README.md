@@ -27,7 +27,7 @@ It supports:
 - prioritized findings with independent severity and confidence;
 - explicit **CONFIRMED ISSUE**, **NEEDS VALIDATION**, **HARDENING OPPORTUNITY**, and **INFORMATIONAL** verdicts;
 - targeted validation questions when project context can change a recommendation;
-- auditing ports, persistence, healthchecks, dependencies, privileges, mounts, secrets, resources, logging, networks, and lifecycle behavior;
+- modular audit references for security, reliability, resources, operations, maintainability, and Compose semantics;
 - recognition of good practices already present without turning optional hardening into mandatory checklist items.
 
 ## Installation
@@ -61,7 +61,14 @@ npx skills add up2dul/skills --skill docker-compose-audit --agent codex --global
 ```text
 skills/
 ├── docker-compose-audit/
-│   └── SKILL.md
+│   ├── SKILL.md
+│   └── references/
+│       ├── compose-semantics.md
+│       ├── maintainability.md
+│       ├── operations.md
+│       ├── reliability.md
+│       ├── resources.md
+│       └── security.md
 └── ideation-workflow/
     └── SKILL.md
 ```
